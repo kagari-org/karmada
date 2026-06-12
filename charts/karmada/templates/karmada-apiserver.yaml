@@ -153,7 +153,6 @@ spec:
       hostNetwork: true
       {{- end }}
       preemptionPolicy: PreemptLowerPriority
-      priority: 2000001000
       restartPolicy: Always
       schedulerName: default-scheduler
       terminationGracePeriodSeconds: 30
@@ -169,7 +168,6 @@ spec:
       tolerations:
       {{- toYaml . | nindent 8 }}
       {{- end }}
-      priorityClassName: {{ .Values.apiServer.priorityClassName }}
       volumes:
         - name: apiserver-cert
           secret:
