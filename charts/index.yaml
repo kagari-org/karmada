@@ -3,7 +3,7 @@ entries:
   karmada:
   - apiVersion: v2
     appVersion: v1.18.0
-    created: "2026-05-30T07:13:13.990104392Z"
+    created: "2026-06-12T14:09:35.531989069Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -484,7 +484,7 @@ entries:
   karmada-operator:
   - apiVersion: v2
     appVersion: v1.18.0
-    created: "2026-05-30T07:13:14.266415306Z"
+    created: "2026-06-12T14:09:35.891055134Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -780,4 +780,4 @@ entries:
     urls:
     - https://github.com/karmada-io/karmada/releases/download/v1.8.0/karmada-operator-chart-v1.8.0.tgz
     version: v1.8.0
-generated: "2026-05-30T08:43:07.066445087Z"
+generated: "2026-06-12T14:09:35.886476498Z"
