@@ -120,8 +120,6 @@ spec:
       enableServiceLinks: true
       hostNetwork: true
       preemptionPolicy: PreemptLowerPriority
-      priority: 2000001000
-      priorityClassName: system-node-critical
       restartPolicy: Always
       schedulerName: default-scheduler
       securityContext:
